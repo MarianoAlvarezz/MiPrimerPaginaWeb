@@ -481,6 +481,17 @@ body{
         background-repeat: no-repeat;
     }
 
+    .videoshome1{
+        width: 40em;
+        padding: 10px;
+    }
+    
+    
+    .videoshome2{
+        width: 40em;
+        padding: 10px;
+    }
+
     /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
     
     .textoNosotros{
