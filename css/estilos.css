@@ -403,7 +403,7 @@ body{
     height: 100vh;
     transition: all .5s;
     display: table;
-    background-image:url(/principal/img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
+    background-image:url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -470,7 +470,7 @@ body{
         height:100vh;
         transition: all .5s;
         display: table;
-        background-image:url(/principal/img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
+        background-image:url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
@@ -507,7 +507,7 @@ body{
         height: 100vh;
         transition: all .5s;
         display: table;
-        background-image:url(/principal/img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
+        background-image:url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
