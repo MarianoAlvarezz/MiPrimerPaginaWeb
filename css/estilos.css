@@ -86,22 +86,14 @@ body{
 /*-------------------------------------- animaciones o keyframes --------------------------------------  */
 
 .wow.animate__animated.animate__backInLeft{
-    animation-delay: 0.25s;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .wow.animate__animated.animate__backInRight{
     animation-delay: 0.5s;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
-.wow.animate__animated.animate__fadeInTopLeft{
-    animation-duration: 2s;
-}
-
-.wow.animate__animated.animate__fadeInRight{
-    animation-duration: 1.5s;
-}
 
 
 /* ------------------------------------------- header-logo  -------------------------------------------*/
@@ -135,11 +127,6 @@ body{
 .servicios__trabajos:hover{
     object-fit: cover;
     width: 17%;
-}
-
-.textodeServicios{
-    padding: 15px;
-    list-style-type: none;
 }
 
 /* ---------------------------------------------- galeria ---------------------------------------------- */
@@ -317,6 +304,7 @@ body{
 
 .title{
     padding: 0.5em;
+    color: black;
 }
 
 .texto {
@@ -325,7 +313,15 @@ body{
 
 .title1{
     padding: 2em;
+    color: black;
 }
+
+.textodeServicios{
+    padding: 15px;
+    list-style-type: none;
+    color: black;
+}
+
 
 /* ---------------------------------------------- videos ---------------------------------------------- */
 
