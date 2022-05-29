@@ -187,11 +187,15 @@ body{
 .footerLinks{
     display: relative;
     font-size: 1em;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
     list-style-type: none;
+}
+
+.footerLinks li a:hover{
+    color: rgb(182, 117, 117);
 }
 
 .footer_hr{
@@ -222,7 +226,7 @@ body{
 }
 
 .footer__boton1:hover{
-    background-color:rgb(230, 235, 193);
+    background-color:rgb(220, 233, 125);
 }
 
 .footer__boton2{
@@ -231,7 +235,7 @@ body{
     font-size:large;
 }
 .footer__boton2:hover{
-    background-color: rgb(230, 235, 193);
+    background-color: rgb(220, 233, 125);
 }
 
 .footer__boton3{
@@ -241,7 +245,7 @@ body{
 }
 
 .footer__boton3:hover{
-    background-color: rgb(230, 235, 193);
+    background-color: rgb(220, 233, 125);
 }
 
 .fa-solid.fa-location-dot{
