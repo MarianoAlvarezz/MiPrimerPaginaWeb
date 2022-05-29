@@ -395,6 +395,11 @@ body{
     transition: 1s;
 }
 
+.navbar.navbar-expand-lg li a{
+    color:rgb(113, 86, 86);
+    text-decoration: none;
+}
+
 /*------------------------------- videos ----------------------------------*/
 
     .videoIndex{
@@ -458,6 +463,12 @@ body{
         background-repeat: no-repeat;
     }
 
+    .navbar.navbar-expand-lg li a{
+        color:rgb(113, 86, 86);
+        text-decoration: none;
+    }
+}
+
     .videoshome1{
         width: 40em;
         padding: 5px;
@@ -486,8 +497,6 @@ body{
         display: inline;
     }
 
-}
-
 /*--------------------------------------------------------------- MOBILE - IPAD --------------------------------------------------------------------*/
 
 @media(max-width:820px){
@@ -504,6 +513,11 @@ body{
         background-image:url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
+    }
+
+    .navbar.navbar-expand-lg li a{
+        color:rgb(113, 86, 86);
+        text-decoration: none;
     }
 }
 
