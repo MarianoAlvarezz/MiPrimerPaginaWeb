@@ -9,62 +9,70 @@
 
 body{
 
-background: rgba(1, 2, 2, 1.0);
-background: -webkit-linear-gradient(bottom, rgba(1, 2, 2, 1.0), rgba(210, 215, 203, 1.0));
-background: -moz-linear-gradient(bottom, rgba(1, 2, 2, 1.0), rgba(210, 215, 203, 1.0));
-background: linear-gradient(to top, rgba(1, 2, 2, 1.0), rgba(210, 215, 203, 1.0));
-    background-size: cover;
-    color: white;
+    background-image: linear-gradient(
+        30deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(238deg 5% 96%) 8%,
+        hsl(238deg 5% 93%) 15%,
+        hsl(238deg 5% 89%) 20%,
+        hsl(238deg 5% 86%) 25%,
+        hsl(238deg 5% 82%) 30%,
+        hsl(238deg 5% 79%) 34%,
+        hsl(238deg 5% 76%) 38%,
+        hsl(238deg 5% 72%) 42%,
+        hsl(238deg 5% 69%) 45%,
+        hsl(238deg 5% 66%) 49%,
+        hsl(238deg 5% 62%) 53%,
+        hsl(238deg 4% 59%) 56%,
+        hsl(238deg 4% 56%) 60%,
+        hsl(237deg 4% 53%) 64%,
+        hsl(237deg 5% 49%) 68%,
+        hsl(237deg 5% 46%) 72%,
+        hsl(237deg 6% 43%) 76%,
+        hsl(237deg 7% 40%) 81%,
+        hsl(237deg 7% 37%) 86%,
+        hsl(236deg 8% 34%) 92%,
+        hsl(236deg 9% 31%) 100%
+    );
+
 }
 
 /* ------------------------------------header-menu de navegacion ------------------------------------ */
 
-.header__nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
+.navbar.navbar-expand-lg{
     background: rgb(0, 0, 0, 0.8);
+    position: fixed;
 
     padding: 2%;
     padding-left: 50%;
     height: 70px;
-    gap: 80px;
     width: 100%;
 
-    white-space:pre-wrap;
     list-style-type: none;
     z-index: 9;
 }
 
-.menu__icon img{
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
-}
-
-
 /*----------------------- animacion del menu de navegacion -----------------------  */
 
-.header__nav li a{
+.navbar.navbar-expand-lg li a{
     color: white;
     text-decoration: none;
 }
 
-.header__nav li a:hover{
+.navbar.navbar-expand-lg li a:hover{
     color: rgb(252, 1, 1);
     transition: 1s;
-}   
+}
 
-.nav__item{
+.nav-link{
     --clippy: polygon(0 2%, 0 1%, 0 100%, 0% 100%);
 }
 
-.nav__item:hover{
+.nav-link:hover{
     --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.nav__item::after{
+.nav-link::after{
     content: "";
     display: block;
     background: white;
@@ -73,10 +81,6 @@ background: linear-gradient(to top, rgba(1, 2, 2, 1.0), rgba(210, 215, 203, 1.0)
     height: 3px;
     clip-path: var(--clippy);
     transition: clip-path .5s;
-}
-
-.nav__label {
-    display: none;
 }
 
 /*-------------------------------------- animaciones o keyframes --------------------------------------  */
@@ -102,40 +106,15 @@ background: linear-gradient(to top, rgba(1, 2, 2, 1.0), rgba(210, 215, 203, 1.0)
 
 /* ------------------------------------------- header-logo  -------------------------------------------*/
 
-.header__logo{
+.navbar-brand{
     display: flex;
-    justify-content:flex-start;
     position: absolute;
-    height: 50px;
-    padding: 2px;
-    z-index: 10;
+    left: 10px;
+    height: 60px;
     position: fixed;
 }
 
 /* -------------------------------------------- imagenes ---------------------------------------------*/
-
-/* ---------------------------------------------- index ---------------------------------------------- */
-
-.imagenindexContenedor{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(800px));
-    grid-auto-rows: minmax(625px, auto);
-    background-image: url(/principal/img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    position:relative;
-    width: 100%;
-    height: 100vh;
-}
-
-.gridItem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-position: center;
-    background-size: cover;
-}
 
 /* ---------------------------------------------- servicios ---------------------------------------------- */
 
@@ -275,37 +254,36 @@ background: linear-gradient(to top, rgba(1, 2, 2, 1.0), rgba(210, 215, 203, 1.0)
 
 /* ---------------------------------------------- contacto ---------------------------------------------- */
 
-.contactoRecuadro{
-    background-color: #000000;
+.formularioContacto{
     background-image: linear-gradient(
-        45deg,
-        hsl(240deg 2% 51%) 0%,
-        hsl(240deg 2% 48%) 5%,
-        hsl(240deg 2% 46%) 10%,
-        hsl(240deg 2% 43%) 14%,
-        hsl(240deg 2% 41%) 19%,
-        hsl(240deg 2% 38%) 24%,
-        hsl(240deg 3% 36%) 29%,
-        hsl(240deg 3% 34%) 33%,
-        hsl(240deg 3% 31%) 38%,
-        hsl(240deg 3% 29%) 43%,
-        hsl(240deg 3% 27%) 48%,
-        hsl(240deg 4% 24%) 52%,
-        hsl(240deg 4% 22%) 57%,
-        hsl(239deg 4% 20%) 62%,
-        hsl(239deg 5% 18%) 67%,
-        hsl(239deg 5% 16%) 71%,
-        hsl(239deg 6% 14%) 76%,
-        hsl(239deg 7% 12%) 81%,
-        hsl(239deg 8% 10%) 86%,
-        hsl(241deg 12% 7%) 90%,
-        hsl(241deg 27% 5%) 95%,
-        hsl(0deg 0% 0%) 100%);
-
-    background-attachment: fixed;
-    background-size: cover;
-    width: 35%;
-    padding: 0.5em;
+        300deg,
+        hsl(0deg 0% 27%) 0%,
+        hsl(344deg 0% 28%) 9%,
+        hsl(344deg 0% 30%) 16%,
+        hsl(344deg 0% 32%) 22%,
+        hsl(344deg 0% 34%) 26%,
+        hsl(344deg 0% 35%) 29%,
+        hsl(344deg 0% 37%) 31%,
+        hsl(344deg 0% 39%) 33%,
+        hsl(344deg 0% 41%) 34%,
+        hsl(344deg 0% 42%) 35%,
+        hsl(344deg 0% 44%) 36%,
+        hsl(344deg 0% 46%) 36%,
+        hsl(344deg 0% 48%) 37%,
+        hsl(344deg 0% 50%) 38%,
+        hsl(344deg 0% 51%) 38%,
+        hsl(344deg 0% 53%) 39%,
+        hsl(344deg 0% 55%) 41%,
+        hsl(344deg 0% 57%) 43%,
+        hsl(344deg 0% 59%) 47%,
+        hsl(344deg 0% 61%) 53%,
+        hsl(344deg 0% 63%) 63%,
+        hsl(0deg 0% 65%) 99%);
+    
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .mapContacto {
@@ -403,21 +381,21 @@ body{
 @media(max-width:768px){
 
 /*------------------------------- menuNav ----------------------------------*/
-.header__nav{
+.navbar.navbar-expand-lg{
     position:relative;
     width: 100%;
     height: 100vh;
     transition: all .5s;
-    display: table;
     background-image:url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.header__nav li a:hover{
+.navbar.navbar-expand-lg li a:hover{
     color: rgb(240, 8, 8);
     transition: 1s;
 }
+
 /*------------------------------- videos ----------------------------------*/
 
     .videoIndex{
@@ -470,7 +448,7 @@ body{
     /*------------------------------- menuNav ----------------------------------*/
     
     
-    .header__nav{
+    .navbar.navbar-expand-lg{
         position:relative;
         width: 100%;
         height:100vh;
@@ -518,7 +496,7 @@ body{
     /*------------------------------- menuNav ----------------------------------*/
     
     
-    .header__nav{
+    .navbar.navbar-expand-lg{
         position:relative;
         width: 100%;
         height: 100vh;
