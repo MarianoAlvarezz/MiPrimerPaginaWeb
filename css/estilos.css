@@ -85,13 +85,14 @@ body{
 
 /*-------------------------------------- animaciones o keyframes --------------------------------------  */
 
-.wow.animate__animated.animate__backInLeft{
-    animation-duration: 1s;
+.wow.animate__animated.animate__backInDown{
+    animation-duration: 0.5s; 
+    animation-delay: 0.5s;
 }
 
-.wow.animate__animated.animate__backInRight{
-    animation-delay: 0.5s;
+.wow.animate__animated.animate__backInUp{
     animation-duration: 1s;
+    animation-delay:1s;
 }
 
 
@@ -395,6 +396,23 @@ body{
     text-decoration: none;
 }
 
+/*------------------------------- Botones ----------------------------------*/
+
+.footer__boton1:hover{
+    background-color:rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton2:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton3:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
+
 /*------------------------------- videos ----------------------------------*/
 
     .videoIndex{
@@ -492,6 +510,24 @@ body{
         display: inline;
     }
 
+
+    /*------------------------------- Botones ----------------------------------*/
+
+.footer__boton1:hover{
+    background-color:rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton2:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton3:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
+
 /*--------------------------------------------------------------- MOBILE - IPAD --------------------------------------------------------------------*/
 
 @media(max-width:820px){
@@ -509,6 +545,24 @@ body{
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
+
+
+    /*------------------------------- Botones ----------------------------------*/
+
+.footer__boton1:hover{
+    background-color:rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton2:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton3:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
 
 }
 
@@ -535,6 +589,24 @@ body{
         .videos__home{
             display: grid;
         }
+
+
+        /*------------------------------- Botones ----------------------------------*/
+
+.footer__boton1:hover{
+    background-color:rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton2:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
+
+.footer__boton3:hover{
+    background-color: rgb(220, 233, 125);
+    width: 5%;
+}
 
     /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
     
