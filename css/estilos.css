@@ -478,11 +478,12 @@ body{
     }
     
     .navbar.navbar-expand-lg li a{
-        color:rgb(113, 86, 86);
+        color:white;
         text-decoration: none;
+        background-image:url(../img/imagenBoton.jfif);
+        border-radius: 10px;
     }
     
-
 
 }
 
