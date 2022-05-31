@@ -70,6 +70,7 @@ body{
 
 .nav-link:hover{
     --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    
 }
 
 .nav-link::after{
@@ -103,7 +104,7 @@ body{
     display: flex;
     position: absolute;
     left: 10px;
-    height: 60px;
+    height: 55px;
     position: fixed;
 }
 
@@ -458,7 +459,7 @@ body{
 
 @media(max-width:990px){
 
-    /*------------------------------- menuNav ----------------------------------*/
+    /*------------------------------- MenuNav ----------------------------------*/
     
     
     .navbar.navbar-expand-lg{
@@ -482,6 +483,16 @@ body{
         text-decoration: none;
         background-image:url(../img/imagenBoton.jfif);
         border-radius: 10px;
+    }
+
+    /*------------------------------- Carrousel ----------------------------------*/
+
+    #carouselExampleIndicators {
+        padding: 10px;
+    }
+
+    .navbar-brand{
+        position:absolute;
     }
     
 
