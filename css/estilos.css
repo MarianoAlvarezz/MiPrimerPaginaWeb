@@ -10,31 +10,21 @@
 body{
 
     background-image: linear-gradient(
-        30deg,
-        hsl(0deg 0% 100%) 0%,
-        hsl(238deg 5% 96%) 8%,
-        hsl(238deg 5% 93%) 15%,
-        hsl(238deg 5% 89%) 20%,
-        hsl(238deg 5% 86%) 25%,
-        hsl(238deg 5% 82%) 30%,
-        hsl(238deg 5% 79%) 34%,
-        hsl(238deg 5% 76%) 38%,
-        hsl(238deg 5% 72%) 42%,
-        hsl(238deg 5% 69%) 45%,
-        hsl(238deg 5% 66%) 49%,
-        hsl(238deg 5% 62%) 53%,
-        hsl(238deg 4% 59%) 56%,
-        hsl(238deg 4% 56%) 60%,
-        hsl(237deg 4% 53%) 64%,
-        hsl(237deg 5% 49%) 68%,
-        hsl(237deg 5% 46%) 72%,
-        hsl(237deg 6% 43%) 76%,
-        hsl(237deg 7% 40%) 81%,
-        hsl(237deg 7% 37%) 86%,
-        hsl(236deg 8% 34%) 92%,
-        hsl(236deg 9% 31%) 100%
+        0deg,
+        hsl(0deg 31% 64%) 0%,
+        hsl(0deg 34% 71%) 0%,
+        hsl(0deg 39% 79%) 1%,
+        hsl(0deg 47% 87%) 2%,
+        hsl(0deg 78% 95%) 4%,
+        hsl(0deg 74% 88%) 6%,
+        hsl(0deg 73% 82%) 10%,
+        hsl(0deg 72% 75%) 15%,
+        hsl(0deg 72% 69%) 22%,
+        hsl(0deg 78% 64%) 33%,
+        hsl(0deg 82% 59%) 50%,
+        hsl(0deg 85% 53%) 76%,
+        hsl(0deg 96% 48%) 100%
     );
-
 }
 
 /* ------------------------------------header-menu de navegacion ------------------------------------ */
@@ -237,7 +227,7 @@ body{
 }
 
 .fa-solid.fa-location-dot{
-    color: red;
+    color: rgb(91, 6, 6);
 }
 
 .fa-thin.fa-mobile-retro{
@@ -493,6 +483,16 @@ body{
 
     .navbar-brand{
         position:absolute;
+    }
+
+    /*------------------------------- Contacto ----------------------------------*/
+
+    .formularioContacto{
+        
+        width: 95%;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
     }
     
 
