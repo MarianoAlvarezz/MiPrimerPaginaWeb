@@ -10,20 +10,19 @@
 body{
 
     background-image: linear-gradient(
-        0deg,
-        hsl(0deg 31% 64%) 0%,
-        hsl(0deg 34% 71%) 0%,
-        hsl(0deg 39% 79%) 1%,
-        hsl(0deg 47% 87%) 2%,
-        hsl(0deg 78% 95%) 4%,
-        hsl(0deg 74% 88%) 6%,
-        hsl(0deg 73% 82%) 10%,
-        hsl(0deg 72% 75%) 15%,
-        hsl(0deg 72% 69%) 22%,
-        hsl(0deg 78% 64%) 33%,
-        hsl(0deg 82% 59%) 50%,
-        hsl(0deg 85% 53%) 76%,
-        hsl(0deg 96% 48%) 100%
+        245deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(344deg 0% 90%) 9%,
+        hsl(344deg 0% 79%) 17%,
+        hsl(344deg 0% 69%) 26%,
+        hsl(344deg 0% 60%) 36%,
+        hsl(344deg 0% 52%) 45%,
+        hsl(344deg 0% 43%) 54%,
+        hsl(344deg 0% 36%) 64%,
+        hsl(0deg 0% 31%) 73%,
+        hsl(0deg 1% 28%) 82%,
+        hsl(0deg 2% 25%) 91%,
+        hsl(0deg 4% 22%) 100%
     );
 }
 
@@ -73,20 +72,6 @@ body{
     clip-path: var(--clippy);
     transition: clip-path .5s;
 }
-
-/*-------------------------------------- animaciones o keyframes --------------------------------------  */
-
-.wow.animate__animated.animate__backInDown{
-    animation-duration: 0.5s; 
-    animation-delay: 0.5s;
-}
-
-.wow.animate__animated.animate__backInUp{
-    animation-duration: 1s;
-    animation-delay:1s;
-}
-
-
 
 /* ------------------------------------------- header-logo  -------------------------------------------*/
 
@@ -226,14 +211,6 @@ body{
     background-color: rgb(220, 233, 125);
 }
 
-.fa-solid.fa-location-dot{
-    color: rgb(91, 6, 6);
-}
-
-.fa-thin.fa-mobile-retro{
-    color:gainsboro;
-}
-
 /* ---------------------------------------------- contacto ---------------------------------------------- */
 
 .formularioContacto{
@@ -272,6 +249,21 @@ body{
     border: 1px solid black;
     width: 100%;
     height: 600px;
+}
+
+.fa-solid.fa-location-dot{
+    color: rgb(91, 6, 6);
+    padding-right: 10px;
+}
+
+.fa-thin.fa-mobile-retro{
+    color:gainsboro;
+    padding-right: 10px;
+}
+
+.fa-solid.fa-envelopes-bulk{
+    color: black;
+    padding-right: 10px;
 }
 
 /* ----------------------------------------- texto y fuentes ------------------------------------------ */
@@ -474,7 +466,6 @@ body{
         background-image:url(../img/imagenBoton.jfif);
         border-radius: 10px;
     }
-
     /*------------------------------- Carrousel ----------------------------------*/
 
     #carouselExampleIndicators {
