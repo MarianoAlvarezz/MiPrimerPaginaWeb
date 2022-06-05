@@ -90,7 +90,7 @@
     -webkit-transition: all .5s;
     transition: all .5s;
     display: table;
-    background-image: url(./img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
+    background-image: url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     opacity: 1;
@@ -104,7 +104,7 @@
     .navbar.navbar-expand-lg li a {
     color: white;
     text-decoration: none;
-    background-image: url(./img/imagenBoton.jfif);
+    background-image: url(../img/imagenBoton.jfif);
     border-radius: 10px;
     }
     /*------------------------------- Carrousel ----------------------------------*/
