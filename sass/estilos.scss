@@ -1,0 +1,57 @@
+
+
+/* archivo principal */
+
+
+@import "footer";
+@import "header";
+@import "body";
+
+
+
+
+/*--------------------------------------------- normalize ------------------------------------------------- */
+
+*{
+
+    box-sizing: border-box ; 
+    padding: 0 ;
+    margin: 0 ;  
+}
+
+
+/*---------------------------------------------- fondoBody -------------------------------------------------- */
+
+body{
+
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+
+        font-family: 'Koulen', serif;
+
+}
+
+/* ----------------------------------------- texto y fuentes ------------------------------------------ */
+
+.texto1{
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em;
+    color: black;
+}
+
+.title{
+    padding: 0.5em;
+    color: black;
+}
+
+.texto {
+    padding: 3%;
+    color: black;
+}
+
+.title1{
+    padding: 2em;
+    color: black;
+}

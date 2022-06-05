@@ -1,0 +1,155 @@
+
+
+/* MEDIA QUERIES */
+
+
+
+@media (max-width: 768px) {
+    /*------------------------------- videos ----------------------------------*/
+
+    .video__index .videoIndex{
+    width: 40%;
+    }
+    .videos__home .videoshome2{
+    width: 100%;
+    }
+    .videos__home .videoshome1 {
+    width: 100%;
+    }
+    .videos__home {
+    display: -ms-grid;
+    display: grid;
+    }
+    /*------------------------------- imagen ----------------------------------*/
+
+    .imagenindexContenedor {
+    display: none;
+    }
+    /*------------------------------- footer ----------------------------------*/
+
+    .footerLinks {
+    display: inline;
+    }
+    /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
+
+    .textoNosotros {
+    position: absolute;
+    margin-top: 350px;
+    padding: 20px;
+    text-align: center;
+    }
+    /*--------------------------------------------------------------- servicios --------------------------------------------------------------------*/
+
+    .serviciosMain .servicios__trabajos:hover {
+    width: 230px;
+}
+
+/*----------------------------------------------------------------------- MOBILE ----------------------------------------------------------------*/
+/*----------------------------------------------------------------------- index -----------------------------------------------------------------*/
+
+    /*------------------------------- menuNav ----------------------------------*/
+
+@media (max-width: 480px) {
+
+}
+
+.videos__home .videoshome1 {
+    width: 40em;
+    padding: 5px;
+}
+
+.videos__home .videoshome2 {
+    width: 40em;
+    padding: 5px;
+}
+
+/*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
+
+.textoNosotros {
+    position: absolute;
+    margin-top: 350px;
+    padding: 20px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+/*------------------------------- footer ----------------------------------*/
+.footerLinks {
+    display: inline;
+}
+
+/*------------------------------------------------------- MOBILE - IPAD - TABLET --------------------------------------------------------------*/
+
+/*------------------------------- MenuNav ----------------------------------*/
+@media (max-width: 990px) {
+
+.header .navbar.navbar-expand-lg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    display: table;
+    background-image: url(./img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 1;
+    }
+
+    .navbar.navbar-expand-lg li a:hover {
+    color: #f00808;
+    -webkit-transition: 1s;
+    transition: 1s;
+    }
+    .navbar.navbar-expand-lg li a {
+    color: white;
+    text-decoration: none;
+    background-image: url(./img/imagenBoton.jfif);
+    border-radius: 10px;
+    }
+    /*------------------------------- Carrousel ----------------------------------*/
+
+    #carouselExampleIndicators {
+    padding: 10px;
+    }
+    .navbar-brand {
+    position: absolute;
+    }
+    /*------------------------------- Contacto ----------------------------------*/
+
+    .formularioContacto {
+    width: 95%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    }
+}
+
+/*------------------------------------------------------------------- IPAD - MINI ----------------------------------------------------------------*/
+/*----------------------------------------------------------------------- index -----------------------------------------------------------------*/
+
+@media (max-width: 1024px) {
+    /*------------------------------- videos ----------------------------------*/
+    .video__index .videoIndex{
+    width: 40%;
+    }
+    .videos__home .videoshome2 {
+    width: 100%;
+    }
+    .videos__home .videoshome1{
+    width: 100%;
+    }
+    .videos__home {
+    display: -ms-grid;
+    display: grid;
+    }
+    /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
+    .textoNosotros {
+    position: absolute;
+    margin-top: 380px;
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    }
+}
+}

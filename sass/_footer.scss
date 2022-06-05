@@ -1,0 +1,68 @@
+/*---------------------------------------------- footer-------------------------------------------------- */
+.footer{
+    background-color:rgb(0, 0, 0.8);
+    color: white;
+    padding: 2em;
+    opacity: 0.9;
+
+
+
+    .footerLinks{
+        display: relative;
+        font-size: 1em;
+        margin-left: 350px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        list-style-type: none;
+
+
+        li a{    text-decoration: none;
+            color: white;
+
+        }
+
+        a:hover{
+            color: rgb(182, 117, 117);
+        }
+    }
+
+    .footer__boton1{
+        font-size:large;
+        width: 25px;
+        height: 30px;
+
+        &:hover{
+            background-color:rgb(220, 233, 125);
+        }
+    }
+
+.footer__boton2{
+    font-size:large;
+    width: 25px;
+    height: 30px;
+
+    &:hover{
+        background-color: rgb(220, 233, 125);
+    }
+}
+
+.footer__boton3{
+    font-size:large;
+    width: 25px;
+    height: 30px;
+
+    &:hover{
+        background-color: rgb(220, 233, 125);
+    }
+}
+
+.footer_hr{
+    margin-left: 200px;
+    margin-right: 200px;
+
+    .footerText{
+        background: none;
+    }
+
+}
+}
