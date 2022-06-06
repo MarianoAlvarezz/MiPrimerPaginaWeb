@@ -133,11 +133,13 @@
     width: 40%;
     }
     .videos__home .videoshome2 {
-    width: 100%;
+        width: 100%;
     }
+
     .videos__home .videoshome1{
-    width: 100%;
+        width: 100%;
     }
+
     .videos__home {
     display: -ms-grid;
     display: grid;
@@ -154,3 +156,19 @@
     }
 }
 
+/*----------------------------------------------------------------------- index -----------------------------------------------------------------*/
+
+/*------------------------------- videos ----------------------------------*/
+
+
+@media (min-width: 1024px){
+
+    .videos__home .videoshome2 {
+        width: 100%;
+    }
+
+    .videos__home .videoshome1{
+        width: 100%;
+    }
+
+}
