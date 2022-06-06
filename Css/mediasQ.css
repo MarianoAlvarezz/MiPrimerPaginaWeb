@@ -98,7 +98,7 @@
     .navbar.navbar-expand-lg li a {
     color: white;
     text-decoration: none;
-    background-image: url(../img/imagenBoton.jfif);
+    background-image: url(../img/ContenidoNav.webp);
     border-radius: 10px;
     }
     /*------------------------------- Carrousel ----------------------------------*/
@@ -109,6 +109,8 @@
     .navbar-brand {
     position: absolute;
     }
+
+    
     /*------------------------------- Contacto ----------------------------------*/
 
     .formularioContacto {
@@ -117,6 +119,7 @@
     border: 2px solid black;
     border-radius: 5px;
     }
+
 }
 
 /*------------------------------------------------------------------- IPAD - MINI ----------------------------------------------------------------*/
@@ -124,6 +127,8 @@
 
 @media (max-width: 1024px) {
     /*------------------------------- videos ----------------------------------*/
+
+
     .video__index .videoIndex{
     width: 40%;
     }
@@ -137,6 +142,8 @@
     display: -ms-grid;
     display: grid;
     }
+
+
     /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
     .textoNosotros {
     position: absolute;
