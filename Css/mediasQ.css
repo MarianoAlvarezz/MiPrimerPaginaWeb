@@ -45,7 +45,6 @@
 
 @media (max-width: 480px) {
 
-}
 
 .videos__home .videoshome1 {
     width: 40em;
@@ -71,6 +70,7 @@
 .footerLinks {
     display: inline;
 }
+}
 
 /*------------------------------------------------------- MOBILE - IPAD - TABLET --------------------------------------------------------------*/
 
@@ -89,6 +89,7 @@
     background-repeat: no-repeat;
     opacity: 1;
     }
+
 
     .navbar.navbar-expand-lg li a:hover {
     color: #f00808;
