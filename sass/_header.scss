@@ -5,7 +5,7 @@
         position: fixed;
         padding: 2%;
         padding-left: 50%;
-        height: 70px;
+
         width: 100%;
         opacity: 0.8;
 
@@ -51,5 +51,8 @@
         position: fixed;
     }
 
+    .navbar-toggler{
+        width: 70px;
+    }
 
 }
