@@ -2,33 +2,11 @@
 /* ---------------------------------------------- servicios ---------------------------------------------- */
 
 .serviciosMain{
-
-
-    .servicios__trabajos{
-        width: 225px;
-        height: 225px;
-        border: 2px solid black;
-        object-fit: cover;
-        border-radius: 10px;
-        margin: 10px;
+    .card{
+        margin: 20px;
+        padding: 0px;
     }
-
-    .servicios__trabajos:hover{
-        object-fit: cover;
-        width: 17%;
-    }
-
-    .animate__animated.animate__fadeInRight{
-        display: flex;
-        padding: 5px;
-    }
-
-    .textodeServicios{
-        padding: 15px;
-        list-style-type: none;
-        color: black;
-    }
-}
+}   
 
 
 /* ---------------------------------------------- galeria ---------------------------------------------- */
@@ -80,6 +58,10 @@
 
 .ContactoMain{
 
+    .title{
+        list-style: none;
+    }
+
     .fa-solid.fa-location-dot{
         color: rgb(91, 6, 6);
         padding-right: 10px;
@@ -95,6 +77,11 @@
         padding-right: 10px;
     }
 
+}
+
+.contactoArgUru{
+    display: grid;
+    
 }
 
 
@@ -153,24 +140,13 @@
         align-items: center;
         justify-content: center;
 
-        .fotoPortada{
-            background-image: url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
-            position: relative;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            height: 100vh;
-            width: 100%;
-        }
-
 
         .videoIndex:hover {
-            width: 38%;
             filter: grayscale(0%);
         }
 
         .videoIndex{
-            width: 30em;
+            width: 35em;
             filter: grayscale(100%);
             transition: 0.5s;
             padding: 10px;
@@ -194,5 +170,19 @@
         width: 42em;
         padding: 10px;
     }
+}
+
+/* ---------------------------------------------- Card Serv 1 ---------------------------------------------- */
+
+.mainServicios{
+    color: black;
+    padding: 20px;
+
+    .imagenCard{
+        width: 280px;
+        height: 280px;
+        margin: 20px;
+    }
 
 }
+

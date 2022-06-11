@@ -124,33 +124,9 @@
 }
 
 /* ---------------------------------------------- servicios ---------------------------------------------- */
-.serviciosMain .servicios__trabajos {
-  width: 225px;
-  height: 225px;
-  border: 2px solid black;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.serviciosMain .servicios__trabajos:hover {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 17%;
-}
-
-.serviciosMain .animate__animated.animate__fadeInRight {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 5px;
-}
-
-.serviciosMain .textodeServicios {
-  padding: 15px;
-  list-style-type: none;
-  color: black;
+.serviciosMain .card {
+  margin: 20px;
+  padding: 0px;
 }
 
 /* ---------------------------------------------- galeria ---------------------------------------------- */
@@ -201,6 +177,10 @@
 }
 
 /* ---------------------------------------------- contacto ---------------------------------------------- */
+.ContactoMain .title {
+  list-style: none;
+}
+
 .ContactoMain .fa-solid.fa-location-dot {
   color: #5b0606;
   padding-right: 10px;
@@ -214,6 +194,11 @@
 .ContactoMain .fa-solid.fa-envelopes-bulk {
   color: black;
   padding-right: 10px;
+}
+
+.contactoArgUru {
+  display: -ms-grid;
+  display: grid;
 }
 
 .formularioContacto {
@@ -267,24 +252,13 @@
           justify-content: center;
 }
 
-.video__index .fotoPortada {
-  background-image: url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100%;
-}
-
 .video__index .videoIndex:hover {
-  width: 38%;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
 
 .video__index .videoIndex {
-  width: 30em;
+  width: 35em;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-transition: 0.5s;
@@ -309,6 +283,18 @@
 .videos__home .videoshome2 {
   width: 42em;
   padding: 10px;
+}
+
+/* ---------------------------------------------- Card Serv 1 ---------------------------------------------- */
+.mainServicios {
+  color: black;
+  padding: 20px;
+}
+
+.mainServicios .imagenCard {
+  width: 280px;
+  height: 280px;
+  margin: 20px;
 }
 
 /*--------------------------------------------- normalize ------------------------------------------------- */
@@ -346,7 +332,7 @@ body {
 }
 
 .title1 {
-  padding: 2em;
+  padding: 3em;
   color: black;
 }
 /*# sourceMappingURL=estilos.css.map */
