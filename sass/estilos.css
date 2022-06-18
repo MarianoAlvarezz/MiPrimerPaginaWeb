@@ -8,13 +8,20 @@
   opacity: 0.9;
 }
 
+.footer .numerosContact {
+  list-style: none;
+  margin: 50px;
+}
+
 .footer .footerLinks {
   display: relative;
   font-size: 1em;
   margin-left: 350px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   list-style-type: none;
+}
+
+.footer .footerLinks .separacionFoot {
+  margin-bottom: 25px;
 }
 
 .footer .footerLinks li a {
@@ -63,6 +70,7 @@
 
 .footer .footer_hr .footerText {
   background: none;
+  margin: 20px;
 }
 
 .header .navbar.navbar-expand-lg {
@@ -296,110 +304,6 @@
   width: 280px;
   height: 280px;
   margin: 20px;
-}
-
-.desafio {
-  background-color: red;
-  font-size: large;
-  width: 50%;
-  height: auto;
-}
-
-/* ----------------------------------------------MAP-----------------------------------------------------*/
-.icon-nombre {
-  color: blue;
-}
-
-.icon-nombre {
-  color: pink;
-}
-
-.icon-nombre {
-  color: skyblue;
-}
-
-.icon-nombre {
-  color: violet;
-}
-
-.icon-nombre {
-  color: red;
-}
-
-.icon-nombre {
-  color: green;
-}
-
-.Boton1 {
-  color: violet;
-  margin-top: 20px;
-  width: 30px;
-}
-
-.Boton2 {
-  color: pink;
-  margin-top: 20px;
-  width: 30px;
-}
-
-.Boton3 {
-  color: green;
-  margin-top: 20px;
-  width: 30px;
-}
-
-.muestra-color {
-  background: blue;
-  margin-top: 40px;
-  width: 60%;
-}
-
-.color {
-  color: yellow;
-}
-
-.colorTexto {
-  color: black;
-}
-
-/* ---------------------------------------------- EXTEND -----------------------------------------------------*/
-.botonExtend, .botonExtend--red, .botonExtend--blue, .botonExtend--green {
-  display: inline;
-  width: 200px;
-  margin: 50px;
-  border-radius: 10px;
-}
-
-.botonExtend--red {
-  background-color: red;
-  color: white;
-}
-
-.botonExtend--blue {
-  background-color: blue;
-  color: white;
-}
-
-.botonExtend--green {
-  background-color: green;
-  color: white;
-}
-
-/* ---------------------------------------------- MIXINS -----------------------------------------------------*/
-.botonMixin--red {
-  display: block;
-  width: 200px;
-  border-radius: 10px;
-  background-color: red;
-}
-
-.botonMixin--blue {
-  display: block;
-  padding: 5px;
-  border-radius: 5px;
-  margin: 5px;
-  color: orange;
-  background: black;
 }
 
 /*--------------------------------------------- normalize ------------------------------------------------- */

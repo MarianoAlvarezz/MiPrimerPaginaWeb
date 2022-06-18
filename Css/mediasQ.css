@@ -79,7 +79,7 @@
 @media (max-width: 990px) {
 
 
-.fotoPortada{
+.fotoPortada1{
     background-image: url(../img/da2f9fd4-7e8d-4c5b-95ea-7ebe9f3b4905.jpg);
     position: relative;
     background-size: cover;
@@ -87,6 +87,49 @@
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
+}
+
+.fotoPortada2{
+    background-image: url(../img/FotoPortada\ 2.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.fotoPortada3{
+    background-image: url(../img/FotoPortada\ 3.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.fotoPortada4{
+    background-image: url(../img/FotoPortada\ 4.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.fotoPortada5{
+    background-image: url(../img/FotoPortada\ 5.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    filter: grayscale(100%);
 }
 
 .navbar.navbar-expand-lg li a:hover {

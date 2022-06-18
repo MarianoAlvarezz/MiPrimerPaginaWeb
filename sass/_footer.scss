@@ -5,20 +5,25 @@
     padding: 2em;
     opacity: 0.9;
 
+    .numerosContact{
+        list-style: none;
+        margin: 50px;
+    }
 
 
     .footerLinks{
         display: relative;
         font-size: 1em;
         margin-left: 350px;
-        margin-top: 20px;
-        margin-bottom: 20px;
         list-style-type: none;
+
+        .separacionFoot{
+            margin-bottom: 25px;
+        }
 
 
         li a{    text-decoration: none;
             color: white;
-
         }
 
         a:hover{
@@ -62,6 +67,7 @@
 
     .footerText{
         background: none;
+        margin: 20px;
     }
 
 }
