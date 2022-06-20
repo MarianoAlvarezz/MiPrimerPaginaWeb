@@ -96,10 +96,10 @@
 
 
 .formularioContacto{
-    background: #5d5858;
-    background: linear-gradient(342deg,#5d5858 0%, #ffffff 100%);
-    background: -webkit-linear-gradient(342deg,#5d5858 0%, #ffffff 100%);
-    background: -moz-linear-gradient(342deg,#5d5858 0%, #ffffff 100%);   
+    background: #ffffff;
+    background: linear-gradient(48deg,#ffffff 0%, #cbcbcb 100%);
+    background: -webkit-linear-gradient(48deg,#ffffff 0%, #cbcbcb 100%);
+    background: -moz-linear-gradient(48deg,#ffffff 0%, #cbcbcb 100%);
 
     height: auto;
     margin: 0 auto;
@@ -278,6 +278,22 @@
 }
 
 .fondo5Color{
+    background: rgba(150, 145, 144, 0.8); 
+    color: rgba(150, 145, 144, 0.8);
+    z-index: 10;
+}
+
+/* ----------------------- Fondo6 ------------------------ */
+
+.fondo6{
+    background-image: url(../img/fondo6.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo6Color{
     background: rgba(150, 145, 144, 0.8); 
     color: rgba(150, 145, 144, 0.8);
     z-index: 10;

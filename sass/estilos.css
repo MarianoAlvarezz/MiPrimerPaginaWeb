@@ -40,7 +40,7 @@
 }
 
 .footer .footer__boton1:hover {
-  background-color: #dce97d;
+  background-color: #f0caca;
 }
 
 .footer .footer__boton2 {
@@ -50,7 +50,7 @@
 }
 
 .footer .footer__boton2:hover {
-  background-color: #dce97d;
+  background-color: #f0caca;
 }
 
 .footer .footer__boton3 {
@@ -60,7 +60,7 @@
 }
 
 .footer .footer__boton3:hover {
-  background-color: #dce97d;
+  background-color: #f0caca;
 }
 
 .footer .footer_hr {
@@ -217,9 +217,9 @@
 }
 
 .formularioContacto {
-  background: #5d5858;
-  background: linear-gradient(342deg, #5d5858 0%, #ffffff 100%);
-  background: -moz-linear-gradient(342deg, #5d5858 0%, #ffffff 100%);
+  background: #ffffff;
+  background: linear-gradient(48deg, #ffffff 0%, #cbcbcb 100%);
+  background: -moz-linear-gradient(48deg, #ffffff 0%, #cbcbcb 100%);
   height: auto;
   margin: 0 auto;
   width: 70%;
@@ -394,6 +394,21 @@
   z-index: 10;
 }
 
+/* ----------------------- Fondo6 ------------------------ */
+.fondo6 {
+  background-image: url(../img/fondo6.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo6Color {
+  background: rgba(150, 145, 144, 0.8);
+  color: rgba(150, 145, 144, 0.8);
+  z-index: 10;
+}
+
 /*--------------------------------------------- normalize ------------------------------------------------- */
 * {
   -webkit-box-sizing: border-box;
@@ -449,7 +464,7 @@ body .wave {
   position: absolute;
   margin: 3em;
   margin-top: 5em;
-  color: black;
+  color: grey;
   -webkit-animation: wave 3s ease-in-out infinite;
           animation: wave 3s ease-in-out infinite;
 }
