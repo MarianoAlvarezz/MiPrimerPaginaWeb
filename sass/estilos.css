@@ -136,6 +136,9 @@
 .serviciosMain .card {
   margin: 20px;
   padding: 0px;
+  box-shadow: -1px 2px 23px 11px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: -1px 2px 23px 11px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -1px 2px 23px 11px rgba(0, 0, 0, 0.53);
 }
 
 /* ---------------------------------------------- galeria ---------------------------------------------- */
@@ -167,6 +170,9 @@
           filter: grayscale(100%);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.65);
 }
 
 .containerGaleria .itemGaleria:hover {
@@ -211,15 +217,18 @@
 }
 
 .formularioContacto {
-  background: #304352;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d7d2cc), to(#304352));
-  background: linear-gradient(to bottom, #d7d2cc, #304352);
+  background: #5d5858;
+  background: linear-gradient(342deg, #5d5858 0%, #ffffff 100%);
+  background: -moz-linear-gradient(342deg, #5d5858 0%, #ffffff 100%);
   height: auto;
   margin: 0 auto;
   width: 70%;
   padding: 20px;
   border: 2px solid black;
   border-radius: 5px;
+  box-shadow: -1px 1px 27px 16px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -1px 1px 27px 16px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -1px 1px 27px 16px rgba(0, 0, 0, 0.65);
 }
 
 .mapContacto {
@@ -304,6 +313,85 @@
   width: 280px;
   height: 280px;
   margin: 20px;
+  box-shadow: -1px 2px 23px 11px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: -1px 2px 23px 11px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: -1px 2px 23px 11px rgba(0, 0, 0, 0.53);
+}
+
+/* ------------------------------------------- Imagenes de fondo  ------------------------------------------- */
+/* ----------------------- Fondo1 ------------------------ */
+.fondo1 {
+  background-image: url(../img/fondo1.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo1Color {
+  background: rgba(150, 145, 144, 0.8);
+  color: rgba(150, 145, 144, 0.8);
+  z-index: 10;
+}
+
+/* ----------------------- Fondo2 ------------------------ */
+.fondo2 {
+  background-image: url(../img/fondo2.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo2Color {
+  background: rgba(150, 145, 144, 0.8);
+  color: rgba(150, 145, 144, 0.8);
+  z-index: 10;
+}
+
+/* ----------------------- Fondo3 ------------------------ */
+.fondo3 {
+  background-image: url(../img/fondo3.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo3Color {
+  background: rgba(150, 145, 144, 0.8);
+  color: rgba(150, 145, 144, 0.8);
+  z-index: 10;
+}
+
+/* ----------------------- Fondo4 ------------------------ */
+.fondo4 {
+  background-image: url(../img/fondo4.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo4Color {
+  background: rgba(150, 145, 144, 0.8);
+  color: rgba(150, 145, 144, 0.8);
+  z-index: 10;
+}
+
+/* ----------------------- Fondo5 ------------------------ */
+.fondo5 {
+  background-image: url(../img/fondo5.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo5Color {
+  background: rgba(150, 145, 144, 0.8);
+  color: rgba(150, 145, 144, 0.8);
+  z-index: 10;
 }
 
 /*--------------------------------------------- normalize ------------------------------------------------- */
@@ -316,9 +404,7 @@
 
 /*---------------------------------------------- fondoBody -------------------------------------------------- */
 body {
-  background: #bdc3c7;
-  background: -webkit-gradient(linear, left top, right top, from(#2c3e50), to(#bdc3c7));
-  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: white;
   font-family: 'Koulen', serif;
 }
 
@@ -331,7 +417,7 @@ body {
 }
 
 .title {
-  padding: 0.5em;
+  padding: 1em;
   color: black;
 }
 
@@ -342,15 +428,15 @@ body {
 
 .title1 {
   padding: 3em;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: black;
   color: black;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white, -1px 1px 0 white;
+  text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.64);
 }
 
 /* --------------------------------------------------------- Animacion de titulos ------------------------------------------------------------------ */
 body .borders {
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: absolute;
   margin: 3em;
   margin-top: 5em;
@@ -359,7 +445,7 @@ body .borders {
 }
 
 body .wave {
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: absolute;
   margin: 3em;
   margin-top: 5em;

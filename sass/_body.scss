@@ -5,6 +5,10 @@
     .card{
         margin: 20px;
         padding: 0px;
+
+        box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
+        -webkit-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
+        -moz-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
     }
 }   
 
@@ -19,11 +23,13 @@
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
+    
 
     .itemGaleria {
         display: flex;
         align-items: center;
         justify-content: center;
+
     
         border-radius: 4px;
     
@@ -32,6 +38,10 @@
     
         filter: grayscale(100%);
         transition: 0.3s;
+
+        box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.65);
+        -webkit-box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.65);
+        -moz-box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.65);
     }
 
     .itemGaleria:hover {
@@ -86,9 +96,10 @@
 
 
 .formularioContacto{
-    background: #304352;
-    background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);
-    background: linear-gradient(to bottom, #d7d2cc, #304352);
+    background: #5d5858;
+    background: linear-gradient(342deg,#5d5858 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(342deg,#5d5858 0%, #ffffff 100%);
+    background: -moz-linear-gradient(342deg,#5d5858 0%, #ffffff 100%);   
 
     height: auto;
     margin: 0 auto;
@@ -96,6 +107,10 @@
     padding: 20px;
     border: 2px solid black;
     border-radius: 5px;
+
+    box-shadow: -1px 1px 27px 16px rgba(0,0,0,0.65);
+    -webkit-box-shadow: -1px 1px 27px 16px rgba(0,0,0,0.65);
+    -moz-box-shadow: -1px 1px 27px 16px rgba(0,0,0,0.65);
 
 }
 
@@ -124,10 +139,7 @@
         width: 100%;
         height: 400px;
         padding-bottom: 3%;
-    
     }
-
-
 }
 
 
@@ -169,6 +181,7 @@
         width: 42em;
         padding: 10px;
     }
+
 }
 
 /* ---------------------------------------------- Card Serv 1 ---------------------------------------------- */
@@ -181,8 +194,91 @@
         width: 280px;
         height: 280px;
         margin: 20px;
+        box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
+        -webkit-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
+        -moz-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
     }
 
 }
 
+/* ------------------------------------------- Imagenes de fondo  ------------------------------------------- */
 
+/* ----------------------- Fondo1 ------------------------ */
+
+.fondo1{
+    background-image: url(../img/fondo1.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo1Color{
+    background: rgba(150, 145, 144, 0.8); 
+    color: rgba(150, 145, 144, 0.8);
+    z-index: 10;
+}
+
+/* ----------------------- Fondo2 ------------------------ */
+
+.fondo2{
+    background-image: url(../img/fondo2.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo2Color{
+    background: rgba(150, 145, 144, 0.8); 
+    color: rgba(150, 145, 144, 0.8);
+    z-index: 10;
+}
+
+/* ----------------------- Fondo3 ------------------------ */
+
+.fondo3{
+    background-image: url(../img/fondo3.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo3Color{
+    background: rgba(150, 145, 144, 0.8); 
+    color: rgba(150, 145, 144, 0.8);
+    z-index: 10;
+}
+
+/* ----------------------- Fondo4 ------------------------ */
+
+.fondo4{
+    background-image: url(../img/fondo4.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo4Color{
+    background: rgba(150, 145, 144, 0.8); 
+    color: rgba(150, 145, 144, 0.8);
+    z-index: 10;
+}
+
+/* ----------------------- Fondo5 ------------------------ */
+
+.fondo5{
+    background-image: url(../img/fondo5.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo5Color{
+    background: rgba(150, 145, 144, 0.8); 
+    color: rgba(150, 145, 144, 0.8);
+    z-index: 10;
+}

@@ -11,7 +11,6 @@
 /*--------------------------------------------- normalize ------------------------------------------------- */
 
 *{
-
     box-sizing: border-box ; 
     padding: 0 ;
     margin: 0 ;  
@@ -22,10 +21,7 @@
 
 body{
 
-    background: #bdc3c7;
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);
-
+    background: white;
         font-family: 'Koulen', serif;
 
 }
@@ -40,7 +36,7 @@ body{
 }
 
 .title{
-    padding: 0.5em;
+    padding: 1em;
     color: black;
 }
 
@@ -51,14 +47,11 @@ body{
 
 .title1{
     padding: 3em;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
-            color: black;
-        text-shadow: 
-        -1px -1px 0 white,
-        1px -1px 0 white,
-        1px 1px 0 white,
-        -1px 1px 0 white
+    color: black;
+    text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
+
 }
 
 /* --------------------------------------------------------- Animacion de titulos ------------------------------------------------------------------ */
@@ -66,7 +59,7 @@ body{
 body{
 
     .borders{
-        font-size: 3rem;
+        font-size: 2.5rem;
         position: absolute;
         margin: 3em;
         margin-top: 5em;
@@ -80,7 +73,7 @@ body{
     }
 
     .wave{
-        font-size: 3rem;
+        font-size: 2.5rem;
         position: absolute;
         margin: 3em;
         margin-top: 5em;
@@ -118,6 +111,4 @@ body{
             );
         }
     }
-
-
 }
