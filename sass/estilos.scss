@@ -53,6 +53,17 @@ body{
     text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
 
 }
+
+.title2{
+    padding: 3.1em;
+    font-size: 2.5rem;
+    color: black;
+    color: black;
+    text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
+}
+
+
+
 /* --------------------------------------------------------- Animacion de titulos ------------------------------------------------------------------ */
 
 body{
@@ -64,11 +75,7 @@ body{
         margin-top: 5em;
 
         color: white;
-        text-shadow: 
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        1px 1px 0 black,
-        -1px 1px 0 black
+        text-shadow: 0px 4px 5px rgba(0,0,0,1);
     }
 
     .wave{
@@ -79,6 +86,7 @@ body{
 
         color: grey;
         animation: wave 3s ease-in-out infinite;
+        text-shadow: 0px 4px 5px rgba(0,0,0,1);
     }
 
     @keyframes wave {
