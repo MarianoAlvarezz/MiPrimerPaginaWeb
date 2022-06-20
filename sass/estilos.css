@@ -354,8 +354,8 @@ body .borders {
   position: absolute;
   margin: 3em;
   margin-top: 5em;
-  color: black;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white, -1px 1px 0 white;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, -1px 1px 0 black;
 }
 
 body .wave {
@@ -363,7 +363,7 @@ body .wave {
   position: absolute;
   margin: 3em;
   margin-top: 5em;
-  color: red;
+  color: black;
   -webkit-animation: wave 3s ease-in-out infinite;
           animation: wave 3s ease-in-out infinite;
 }
