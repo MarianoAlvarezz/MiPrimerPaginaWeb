@@ -429,6 +429,9 @@ body {
   display: inline-block;
   padding: 0.5em;
   color: black;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .title {
@@ -439,6 +442,9 @@ body {
 .texto {
   padding: 3%;
   color: black;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .title1 {
@@ -447,6 +453,9 @@ body {
   color: black;
   color: black;
   text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.64);
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .title2 {
@@ -455,27 +464,34 @@ body {
   color: black;
   color: black;
   text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.64);
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 /* --------------------------------------------------------- Animacion de titulos ------------------------------------------------------------------ */
 body .borders {
   font-size: 2.5rem;
   position: absolute;
-  margin: 3em;
+  margin: auto;
   margin-top: 5em;
   color: white;
   text-shadow: 0px 4px 5px black;
+  width: 100%;
+  text-align: center;
 }
 
 body .wave {
   font-size: 2.5rem;
   position: absolute;
-  margin: 3em;
+  margin: auto;
   margin-top: 5em;
   color: grey;
   -webkit-animation: wave 3s ease-in-out infinite;
           animation: wave 3s ease-in-out infinite;
   text-shadow: 0px 4px 5px black;
+  text-align: center;
+  width: 100%;
 }
 
 @-webkit-keyframes wave {
