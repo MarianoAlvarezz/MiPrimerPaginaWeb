@@ -139,14 +139,12 @@
 
 .navbar.navbar-expand-lg li a {
     color: white;
-    text-decoration: none;
     background-image: url(../img/ContenidoNav.webp);
     width: 70px;
     border-radius: 10px;
     }
-    .container-fluid{
-        justify-content: space-between;
-    }
+
+
     /*------------------------------- Carrousel ----------------------------------*/
 
     #carouselExampleIndicators {
@@ -165,15 +163,7 @@
     border: 2px solid black;
     border-radius: 5px;
     }
-
-    /*------------------------------- Texto ----------------------------------*/
-
-    .title1{
-        padding: 1em;
-    }
-
 }
-
 /*------------------------------------------------------------------- IPAD - MINI ----------------------------------------------------------------*/
 /*----------------------------------------------------------------------- index -----------------------------------------------------------------*/
 
