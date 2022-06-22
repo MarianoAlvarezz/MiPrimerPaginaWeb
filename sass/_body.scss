@@ -189,6 +189,10 @@
 .mainServicios{
     color: black;
     padding: 20px;
+    box-shadow: -1px 1px 14px 9px rgba(3,3,3,0.75);
+    -webkit-box-shadow: -1px 1px 14px 9px rgba(3,3,3,0.75);
+    -moz-box-shadow: -1px 1px 14px 9px rgba(3,3,3,0.75);
+
 
     .imagenCard{
         width: 280px;

@@ -1,3 +1,4 @@
+
 /* archivo principal */
 /*--------------------------------------------- @import ------------------------------------------------- */
 /*---------------------------------------------- footer-------------------------------------------------- */
@@ -90,6 +91,7 @@
 .header li a:hover {
   color: #fc0101;
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 
@@ -112,6 +114,7 @@
           clip-path: var(--clippy);
   -webkit-transition: -webkit-clip-path .5s;
   transition: -webkit-clip-path .5s;
+  -o-transition: clip-path .5s;
   transition: clip-path .5s;
   transition: clip-path .5s, -webkit-clip-path .5s;
 }
@@ -166,6 +169,7 @@
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.65);
   -webkit-box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.65);
@@ -174,16 +178,19 @@
 
 .containerGaleria .itemGaleria:hover {
   -webkit-transform: scale(1.04);
-          transform: scale(1.04);
+          -ms-transform: scale(1.04);
+      transform: scale(1.04);
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
 
 @media (min-width: 600px) {
   .containerGaleria .gallery2 {
+    -ms-grid-column-span: 2;
     grid-column: span 2;
   }
   .containerGaleria .gallery1 {
+    -ms-grid-row-span: 2;
     grid-row: span 2;
   }
 }
@@ -215,6 +222,7 @@
 
 .formularioContacto {
   background: #ffffff;
+  background: -o-linear-gradient(42deg, #ffffff 0%, #cbcbcb 100%);
   background: linear-gradient(48deg, #ffffff 0%, #cbcbcb 100%);
   background: -moz-linear-gradient(48deg, #ffffff 0%, #cbcbcb 100%);
   height: auto;
@@ -277,6 +285,7 @@
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   padding: 10px;
 }
@@ -287,7 +296,8 @@
   display: flex;
   -ms-flex-line-pack: center;
       align-content: center;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .videos__home .videoshome1 {
@@ -304,6 +314,9 @@
 .mainServicios {
   color: black;
   padding: 20px;
+  box-shadow: -1px 1px 14px 9px rgba(3, 3, 3, 0.75);
+  -webkit-box-shadow: -1px 1px 14px 9px rgba(3, 3, 3, 0.75);
+  -moz-box-shadow: -1px 1px 14px 9px rgba(3, 3, 3, 0.75);
 }
 
 .mainServicios .imagenCard {
@@ -512,4 +525,3 @@ body .wave {
             clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
   }
 }
-/*# sourceMappingURL=estilos.css.map */
