@@ -22,8 +22,6 @@
 body{
 
     background: white;
-        font-family: 'Koulen', serif;
-
 }
 
 /* ----------------------------------------- texto y fuentes ------------------------------------------ */
@@ -41,6 +39,7 @@ body{
 .title{
     padding: 1em;
     color: black;
+    list-style: none;
 }
 
 .texto {
