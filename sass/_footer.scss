@@ -4,6 +4,10 @@
     color: white;
     padding: 2em;
     opacity: 0.9;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
 
     .numerosContact{
         list-style: none;
@@ -13,8 +17,10 @@
     .footerLinks{
         display: relative;
         font-size: 1em;
-        margin-left: 350px;
         list-style-type: none;
+        margin: auto;
+        width: 100%;
+        text-align: center;
 
         .separacionFoot{
             margin-bottom: 25px;
@@ -26,48 +32,13 @@
         }
 
         a:hover{
+
             color: rgb(182, 117, 117);
         }
-    }
 
-    .footer__boton1{
-        font-size:large;
-        width: 25px;
-        height: 30px;
-
-        &:hover{
-            background-color:rgb(240, 202, 202);
+        i{
+            color: white;
+            
         }
     }
-
-.footer__boton2{
-    font-size:large;
-    width: 25px;
-    height: 30px;
-
-    &:hover{
-        background-color: rgb(240, 202, 202);
-    }
-}
-
-.footer__boton3{
-    font-size:large;
-    width: 25px;
-    height: 30px;
-
-    &:hover{
-        background-color: rgb(240, 202, 202);
-    }
-}
-
-.footer_hr{
-    margin-left: 200px;
-    margin-right: 200px;
-
-    .footerText{
-        background: none;
-        margin: 20px;
-    }
-
-}
 }

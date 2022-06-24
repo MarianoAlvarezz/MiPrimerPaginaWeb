@@ -6,6 +6,9 @@
   color: white;
   padding: 2em;
   opacity: 0.9;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .numerosContact {
@@ -15,8 +18,10 @@
 .footer .footerLinks {
   display: relative;
   font-size: 1em;
-  margin-left: 350px;
   list-style-type: none;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .footerLinks .separacionFoot {
@@ -32,44 +37,8 @@
   color: #b67575;
 }
 
-.footer .footer__boton1 {
-  font-size: large;
-  width: 25px;
-  height: 30px;
-}
-
-.footer .footer__boton1:hover {
-  background-color: #f0caca;
-}
-
-.footer .footer__boton2 {
-  font-size: large;
-  width: 25px;
-  height: 30px;
-}
-
-.footer .footer__boton2:hover {
-  background-color: #f0caca;
-}
-
-.footer .footer__boton3 {
-  font-size: large;
-  width: 25px;
-  height: 30px;
-}
-
-.footer .footer__boton3:hover {
-  background-color: #f0caca;
-}
-
-.footer .footer_hr {
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.footer .footer_hr .footerText {
-  background: none;
-  margin: 20px;
+.footer .footerLinks i {
+  color: white;
 }
 
 .header .navbar.navbar-expand-lg {
@@ -201,11 +170,6 @@
   padding-right: 10px;
 }
 
-.contactoArgUru {
-  display: -ms-grid;
-  display: grid;
-}
-
 .formularioContacto {
   background: #ffffff;
   background: linear-gradient(48deg, #ffffff 0%, #cbcbcb 100%);
@@ -225,10 +189,6 @@
   border: 1px solid black;
   width: 100%;
   height: 600px;
-}
-
-.d-flex.mb-3 {
-  margin: 30px;
 }
 
 /* ---------------------------------------------- nosotros ---------------------------------------------- */
