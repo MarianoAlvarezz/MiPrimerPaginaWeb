@@ -63,17 +63,20 @@
     }
 }
 
-
 /* ---------------------------------------------- contacto ---------------------------------------------- */
 
 .ContactoMain{
+
+    .iconosContacto{
+        padding: 10px;
+    }
 
     .fa-solid.fa-location-dot{
         color: rgb(91, 6, 6);
         padding-right: 10px;
     }
     
-    .fa-thin.fa-mobile-retro{
+    .fa-solid.fa-phone{
         color:gainsboro;
         padding-right: 10px;
     }
@@ -115,10 +118,25 @@
 
 /* ---------------------------------------------- nosotros ---------------------------------------------- */
 
-.ImagenNosotros{
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+    div{
+        width: 500px;
+    }
+
+.imagenNosotros{
     width: 500px;
     height: 400px;
-    filter: grayscale(60%);
+    filter: grayscale(70%);
+    box-shadow: 1px -1px 30px 12px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 1px -1px 30px 12px rgba(0,0,0,0.49);
+    -moz-box-shadow: 1px -1px 30px 12px rgba(0,0,0,0.49);
+}
 }
 
 .nosotrosSection{
@@ -156,8 +174,8 @@
 .videos__home{
 
     display: flex;
-    align-content: center;
-    justify-self: center;
+    justify-content: center;
+    align-items: center;
 
 
     .videoshome1{
@@ -183,7 +201,6 @@
     .imagenCard{
         width: 280px;
         height: 280px;
-        margin: 20px;
         box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
         -webkit-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
         -moz-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
