@@ -115,6 +115,12 @@
 
 /* ---------------------------------------------- nosotros ---------------------------------------------- */
 
+.ImagenNosotros{
+    width: 500px;
+    height: 400px;
+    filter: grayscale(60%);
+}
+
 .nosotrosSection{
 
     .video__nosotros{
@@ -181,6 +187,7 @@
         box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
         -webkit-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
         -moz-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
+        
     }
 
 }
