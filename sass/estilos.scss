@@ -63,7 +63,7 @@ body{
 }
 
 .title2{
-    padding: 3.1em;
+    padding: 1em;
     font-size: 2.5rem;
     color: black;
     color: black;
@@ -72,7 +72,6 @@ body{
     width: 100%;
     text-align: center;
 }
-
 
 
 /* --------------------------------------------------------- Animacion de titulos ------------------------------------------------------------------ */
@@ -134,3 +133,110 @@ body{
         }
     }
 }
+
+
+/* --------------------------------------------------------- Animacion de titulos 2 ----------------------------------------------------------------- */
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+background: hsla(0, 0%, 0%, .9); 
+}
+
+h1 {
+font: normal 140px Varela Round, sans-serif;
+padding: 3.1em;
+font-size: 2.5rem;
+color: black;
+color: black;
+text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
+margin: auto;
+width: 100%;
+text-align: center;
+animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+0% {
+    text-shadow:
+    4px -4px 0 rgb(134, 134, 134), 
+    3px -3px 0 rgb(134, 134, 134), 
+    2px -2px 0 rgb(134, 134, 134), 
+    1px -1px 0 rgb(134, 134, 134), 
+    -4px 4px 0 rgb(4, 4, 4), 
+    -3px 3px 0 rgb(4, 4, 4), 
+    -2px 2px 0 rgb(4, 4, 4), 
+    -1px 1px 0 rgb(4, 4, 4), 
+    ;
+}
+25% {    
+    text-shadow:      
+    -4px -4px 0 rgb(110, 112, 112), 
+    -3px -3px 0 rgb(110, 112, 112), 
+    -2px -2px 0 rgb(110, 112, 112), 
+    -1px -1px 0 rgb(110, 112, 112), 
+    4px 4px 0 rgb(55, 50, 50), 
+    3px 3px 0 rgb(55, 50, 50), 
+    2px 2px 0 rgb(55, 50, 50), 
+    1px 1px 0 rgb(55, 50, 50), 
+    ;
+}
+50% {
+    text-shadow:
+    -4px 4px 0 rgb(216, 204, 204), 
+    -3px 3px 0 rgb(216, 204, 204), 
+    -2px 2px 0 rgb(216, 204, 204), 
+    -1px 1px 0 rgb(216, 204, 204), 
+    4px -4px 0 rgb(127, 131, 131), 
+    3px -3px 0 rgb(127, 131, 131), 
+    2px -2px 0 rgb(127, 131, 131), 
+    1px -1px 0 rgb(127, 131, 131), 
+    ;
+}
+75% {
+    text-shadow:
+    4px 4px 0 rgb(214, 219, 219), 
+    3px 3px 0 rgb(214, 219, 219), 
+    2px 2px 0 rgb(214, 219, 219), 
+    1px 1px 0 rgb(214, 219, 219), 
+    -4px -4px 0 rgb(140, 138, 138), 
+    -3px -3px 0 rgb(140, 138, 138), 
+    -2px -2px 0 rgb(140, 138, 138), 
+    -1px -1px 0 rgb(140, 138, 138), 
+    ;
+}
+100% {
+    text-shadow:
+    4px -4px 0 rgb(255, 255, 255), 
+    3px -3px 0 rgb(255, 255, 255), 
+    2px -2px 0 rgb(255, 255, 255), 
+    1px -1px 0 rgb(255, 255, 255), 
+    -4px 4px 0 rgb(186, 188, 188), 
+    -3px 3px 0 rgb(186, 188, 188), 
+    -2px 2px 0 rgb(186, 188, 188), 
+    -1px 1px 0 rgb(186, 188, 188), 
+}  
+}
+
+/* --------------------------------------------------------- Boton ------------------------------------------------------------------ */
+
+.boton-subir {
+    position: fixed;
+    right: 2%;
+    bottom: 10px;
+    background-color: #17181C;
+    padding: 20px;
+    display: none;
+    opacity: 0.7;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+.boton-subir a {
+    font-size: 24px;
+    color: #fff;
+}
+
+
+

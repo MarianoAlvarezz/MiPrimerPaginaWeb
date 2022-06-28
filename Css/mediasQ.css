@@ -1,78 +1,5 @@
 /* MEDIA QUERIES */
 
-
-
-@media (max-width: 768px) {
-    /*------------------------------- videos ----------------------------------*/
-
-    .video__index .videoIndex{
-    width: 70%;
-    }
-    .videos__home .videoshome2{
-    width: 100%;
-    }
-    .videos__home .videoshome1 {
-    width: 100%;
-    }
-    .videos__home {
-    display: -ms-grid;
-    display: grid;
-    }
-
-    /*------------------------------- imagen ----------------------------------*/
-
-    .imagenindexContenedor {
-    display: none;
-    }
-    /*------------------------------- footer ----------------------------------*/
-
-    .footerLinks {
-    display: inline;
-    }
-    /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
-
-    .textoNosotros {
-    position: absolute;
-    margin-top: 350px;
-    padding: 20px;
-    text-align: center;
-    }
-}
-
-/*----------------------------------------------------------------------- MOBILE ----------------------------------------------------------------*/
-/*----------------------------------------------------------------------- index -----------------------------------------------------------------*/
-
-    /*------------------------------- Videos ----------------------------------*/
-
-@media (max-width: 480px) {
-
-
-.videos__home .videoshome1 {
-    width: 40em;
-    padding: 5px;
-}
-
-.videos__home .videoshome2 {
-    width: 40em;
-    padding: 5px;
-}
-
-/*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
-
-.textoNosotros {
-    position: absolute;
-    margin-top: 350px;
-    padding: 20px;
-    margin-bottom: 2em;
-    text-align: center;
-}
-
-/*------------------------------- footer ----------------------------------*/
-.footerLinks {
-    display: inline;
-}
-}
-
 /*------------------------------------------------------- MOBILE - IPAD - TABLET --------------------------------------------------------------*/
 
 /*------------------------------- MenuNav ----------------------------------*/
@@ -94,6 +21,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
@@ -104,6 +32,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     width: 100%;
     -webkit-filter: grayscale(100%);
@@ -116,6 +45,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     width: 100%;
     -webkit-filter: grayscale(100%);
@@ -128,6 +58,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
     width: 100%;
     -webkit-filter: grayscale(100%);
@@ -149,17 +80,12 @@
     }
 
 
-
     /*------------------------------- Carrousel ----------------------------------*/
 
     #carouselExampleIndicators {
     padding: 10px;
     }
-    .navbar-brand {
-    position: absolute;
-    }
 
-    
     /*------------------------------- Contacto ----------------------------------*/
 
     .formularioContacto {
@@ -170,7 +96,7 @@
     }
 
     .title1{
-        padding: 1em;
+        padding: 2em;
     }
 
     /*------------------------------- Nosotros ----------------------------------*/
@@ -190,6 +116,14 @@
         height: 300px;
     }
 }
+
+    /*------------------------------- CardServ ----------------------------------*/
+
+.imagenCard{
+    margin-bottom: 10px;
+}
+
+
 /*------------------------------------------------------------------- IPAD - MINI ----------------------------------------------------------------*/
 /*----------------------------------------------------------------------- index -----------------------------------------------------------------*/
 
@@ -197,9 +131,6 @@
     /*------------------------------- videos ----------------------------------*/
 
 
-    .video__index .videoIndex{
-    width: 70%;
-    }
     .videos__home .videoshome2 {
         width: 100%;
     }
@@ -213,15 +144,6 @@
     display: grid;
     }
 
-
-    /*--------------------------------------------------------------- nosotros --------------------------------------------------------------------*/
-    .textoNosotros {
-    position: absolute;
-    margin-top: 380px;
-    padding: 40px;
-    text-align: center;
-    padding-bottom: 50px;
-    }
 }
 
 /*----------------------------------------------------------------------- index -----------------------------------------------------------------*/

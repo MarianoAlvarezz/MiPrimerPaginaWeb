@@ -73,29 +73,24 @@
 
     .fa-solid.fa-location-dot{
         color: rgb(91, 6, 6);
-        padding-right: 10px;
     }
     
     .fa-solid.fa-phone{
         color:gainsboro;
-        padding-right: 10px;
     }
     
     .fa-solid.fa-envelopes-bulk{
         color: black;
-        padding-right: 10px;
     }
 }
 
 
 
 .formularioContacto{
-    background: #ffffff;
-    background: linear-gradient(48deg,#ffffff 0%, #cbcbcb 100%);
-    background: -webkit-linear-gradient(48deg,#ffffff 0%, #cbcbcb 100%);
-    background: -moz-linear-gradient(48deg,#ffffff 0%, #cbcbcb 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(23,23,23,1) 0%, rgba(0,0,0,1) 0%, rgba(56,56,56,1) 100%);
 
-    height: auto;
+
     margin: 0 auto;
     width: 70%;
     padding: 20px;
@@ -105,7 +100,6 @@
     box-shadow: -1px 1px 27px 16px rgba(0,0,0,0.65);
     -webkit-box-shadow: -1px 1px 27px 16px rgba(0,0,0,0.65);
     -moz-box-shadow: -1px 1px 27px 16px rgba(0,0,0,0.65);
-
 }
 
 
@@ -151,26 +145,6 @@
 
 /* ---------------------------------------------- index ---------------------------------------------- */
 
-.video__index{
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-
-        .videoIndex:hover {
-            filter: grayscale(0%);
-        }
-
-        .videoIndex{
-            width: 35em;
-            filter: grayscale(100%);
-            transition: 0.5s;
-            padding: 10px;
-        }
-
-}
-
 .videos__home{
 
     display: flex;
@@ -206,7 +180,6 @@
         -moz-box-shadow: -1px 2px 23px 11px rgba(0,0,0,0.53);
         
     }
-
 }
 
 /* ------------------------------------------- Imagenes de fondo  ------------------------------------------- */
