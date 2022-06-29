@@ -17,14 +17,22 @@
 }
 
 
-/*---------------------------------------------- fondoBody -------------------------------------------------- */
+/*---------------------------------------------- fuentes -------------------------------------------------- */
 
-body{
-
-    background: white;
+h2{
+    font-family: 'League Gothic', sans-serif;
 }
 
-/* ----------------------------------------- texto y fuentes ------------------------------------------ */
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+li{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* ----------------------------------------- texto ------------------------------------------ */
 
 .texto1{
     text-align: center;
@@ -40,7 +48,6 @@ body{
     padding: 1em;
     color: black;
     list-style: none;
-    
 }
 
 .texto {
@@ -52,20 +59,17 @@ body{
 }
 
 .title1{
-    padding: 3.1em;
     font-size: 2.5rem;
-    color: black;
     color: black;
     text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
     margin: auto;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .title2{
     padding: 1em;
     font-size: 2.5rem;
-    color: black;
     color: black;
     text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
     margin: auto;
@@ -81,7 +85,6 @@ body{
     .borders{
         font-size: 2.5rem;
         position: absolute;
-        margin: auto;
         margin-top: 5em;
 
         color: white;
@@ -89,135 +92,34 @@ body{
         width: 100%;
         text-align: center;
     }
-
-    .wave{
-        font-size: 2.5rem;
-        position: absolute;
-        margin: auto;
-        margin-top: 5em;
-
-        color: grey;
-        animation: wave 3s ease-in-out infinite;
-        text-shadow: 0px 4px 5px rgba(0,0,0,1);
-        text-align: center;
-        width: 100%;
-    }
-
-    @keyframes wave {
-        0%, 100%{
-            clip-path: polygon(
-                0% 47%,
-                10% 48%,
-                33% 54%,
-                54% 60%,
-                70% 61%,
-                84% 59%,
-                100% 52%,
-                100% 100%,
-                0% 100%,
-            );
-        }
-    
-        50%{
-            clip-path: polygon(
-                0% 60%,
-                15% 65%,
-                34% 66%,
-                51% 62%,
-                67% 50%,
-                84% 45%,
-                100% 46%,
-                100% 100%,
-                0% 100%,
-            );
-        }
-    }
 }
 
 
 /* --------------------------------------------------------- Animacion de titulos 2 ----------------------------------------------------------------- */
 
+h1 span{
 
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+font: 700 4em/1 "Oswald", sans-serif;
+display: block;
+text-shadow: 0 0 80px rgba(255,255,255,.5);
 
-body {
-background: hsla(0, 0%, 0%, .9); 
-}
+	background: url(../img/AnimacionTitulo.png) repeat-y;
+	-webkit-background-clip: text;
+	background-clip: text;
 
-h1 {
-font: normal 140px Varela Round, sans-serif;
-padding: 3.1em;
-font-size: 2.5rem;
-color: black;
-color: black;
-text-shadow: -2px 3px 4px rgba(0,0,0,0.64);
-margin: auto;
-width: 100%;
-text-align: center;
-animation: move linear 2000ms infinite;  
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 80s linear infinite;
+
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+
 }
 
-@keyframes move {
-0% {
-    text-shadow:
-    4px -4px 0 rgb(134, 134, 134), 
-    3px -3px 0 rgb(134, 134, 134), 
-    2px -2px 0 rgb(134, 134, 134), 
-    1px -1px 0 rgb(134, 134, 134), 
-    -4px 4px 0 rgb(4, 4, 4), 
-    -3px 3px 0 rgb(4, 4, 4), 
-    -2px 2px 0 rgb(4, 4, 4), 
-    -1px 1px 0 rgb(4, 4, 4), 
-    ;
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }
-25% {    
-    text-shadow:      
-    -4px -4px 0 rgb(110, 112, 112), 
-    -3px -3px 0 rgb(110, 112, 112), 
-    -2px -2px 0 rgb(110, 112, 112), 
-    -1px -1px 0 rgb(110, 112, 112), 
-    4px 4px 0 rgb(55, 50, 50), 
-    3px 3px 0 rgb(55, 50, 50), 
-    2px 2px 0 rgb(55, 50, 50), 
-    1px 1px 0 rgb(55, 50, 50), 
-    ;
-}
-50% {
-    text-shadow:
-    -4px 4px 0 rgb(216, 204, 204), 
-    -3px 3px 0 rgb(216, 204, 204), 
-    -2px 2px 0 rgb(216, 204, 204), 
-    -1px 1px 0 rgb(216, 204, 204), 
-    4px -4px 0 rgb(127, 131, 131), 
-    3px -3px 0 rgb(127, 131, 131), 
-    2px -2px 0 rgb(127, 131, 131), 
-    1px -1px 0 rgb(127, 131, 131), 
-    ;
-}
-75% {
-    text-shadow:
-    4px 4px 0 rgb(214, 219, 219), 
-    3px 3px 0 rgb(214, 219, 219), 
-    2px 2px 0 rgb(214, 219, 219), 
-    1px 1px 0 rgb(214, 219, 219), 
-    -4px -4px 0 rgb(140, 138, 138), 
-    -3px -3px 0 rgb(140, 138, 138), 
-    -2px -2px 0 rgb(140, 138, 138), 
-    -1px -1px 0 rgb(140, 138, 138), 
-    ;
-}
-100% {
-    text-shadow:
-    4px -4px 0 rgb(255, 255, 255), 
-    3px -3px 0 rgb(255, 255, 255), 
-    2px -2px 0 rgb(255, 255, 255), 
-    1px -1px 0 rgb(255, 255, 255), 
-    -4px 4px 0 rgb(186, 188, 188), 
-    -3px 3px 0 rgb(186, 188, 188), 
-    -2px 2px 0 rgb(186, 188, 188), 
-    -1px 1px 0 rgb(186, 188, 188), 
-}  
-}
+
 
 /* --------------------------------------------------------- Boton ------------------------------------------------------------------ */
 
@@ -237,6 +139,3 @@ animation: move linear 2000ms infinite;
     font-size: 24px;
     color: #fff;
 }
-
-
-

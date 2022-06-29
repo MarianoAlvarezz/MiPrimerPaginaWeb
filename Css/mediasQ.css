@@ -160,5 +160,12 @@
     .videos__home .videoshome1{
         width: 100%;
     }
+}
 
+/*------------------------------- Titulo ----------------------------------*/
+
+@media (min-width: 990px){
+    .title1{
+        padding: 3.1em;
+    }
 }

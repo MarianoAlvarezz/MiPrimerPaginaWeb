@@ -1,7 +1,6 @@
 /* archivo principal */
 /*--------------------------------------------- @import ------------------------------------------------- */
 /*---------------------------------------------- footer-------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 .footer {
   background: #464646;
   background: -webkit-gradient(linear, left top, right top, from(#464646), color-stop(0%, #383838), to(black));
@@ -344,12 +343,20 @@
   margin: 0;
 }
 
-/*---------------------------------------------- fondoBody -------------------------------------------------- */
-body {
-  background: white;
+/*---------------------------------------------- fuentes -------------------------------------------------- */
+h2 {
+  font-family: 'League Gothic', sans-serif;
 }
 
-/* ----------------------------------------- texto y fuentes ------------------------------------------ */
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ----------------------------------------- texto ------------------------------------------ */
 .texto1 {
   text-align: center;
   display: inline-block;
@@ -375,20 +382,17 @@ body {
 }
 
 .title1 {
-  padding: 3.1em;
   font-size: 2.5rem;
-  color: black;
   color: black;
   text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.64);
   margin: auto;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .title2 {
   padding: 1em;
   font-size: 2.5rem;
-  color: black;
   color: black;
   text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.64);
   margin: auto;
@@ -400,7 +404,6 @@ body {
 body .borders {
   font-size: 2.5rem;
   position: absolute;
-  margin: auto;
   margin-top: 5em;
   color: white;
   text-shadow: 0px 4px 5px black;
@@ -408,93 +411,26 @@ body .borders {
   text-align: center;
 }
 
-body .wave {
-  font-size: 2.5rem;
-  position: absolute;
-  margin: auto;
-  margin-top: 5em;
-  color: grey;
-  -webkit-animation: wave 3s ease-in-out infinite;
-          animation: wave 3s ease-in-out infinite;
-  text-shadow: 0px 4px 5px black;
-  text-align: center;
-  width: 100%;
-}
-
-@-webkit-keyframes wave {
-  0%, 100% {
-    -webkit-clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-  }
-  50% {
-    -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-  }
-}
-
-@keyframes wave {
-  0%, 100% {
-    -webkit-clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-  }
-  50% {
-    -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-  }
-}
-
 /* --------------------------------------------------------- Animacion de titulos 2 ----------------------------------------------------------------- */
-body {
-  background: rgba(0, 0, 0, 0.9);
+h1 span {
+  font: 700 4em/1 "Oswald", sans-serif;
+  display: block;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  background: url(../img/AnimacionTitulo.png) repeat-y;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
 }
 
-h1 {
-  font: normal 140px Varela Round, sans-serif;
-  padding: 3.1em;
-  font-size: 2.5rem;
-  color: black;
-  color: black;
-  text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.64);
-  margin: auto;
-  width: 100%;
-  text-align: center;
-  -webkit-animation: move linear 2000ms infinite;
-          animation: move linear 2000ms infinite;
-}
-
-@-webkit-keyframes move {
+@-webkit-keyframes aitf {
   0% {
-    text-shadow: 4px -4px 0 #868686, 3px -3px 0 #868686, 2px -2px 0 #868686, 1px -1px 0 #868686, -4px 4px 0 #040404, -3px 3px 0 #040404, -2px 2px 0 #040404, -1px 1px 0 #040404;
-  }
-  25% {
-    text-shadow: -4px -4px 0 #6e7070, -3px -3px 0 #6e7070, -2px -2px 0 #6e7070, -1px -1px 0 #6e7070, 4px 4px 0 #373232, 3px 3px 0 #373232, 2px 2px 0 #373232, 1px 1px 0 #373232;
-  }
-  50% {
-    text-shadow: -4px 4px 0 #d8cccc, -3px 3px 0 #d8cccc, -2px 2px 0 #d8cccc, -1px 1px 0 #d8cccc, 4px -4px 0 #7f8383, 3px -3px 0 #7f8383, 2px -2px 0 #7f8383, 1px -1px 0 #7f8383;
-  }
-  75% {
-    text-shadow: 4px 4px 0 #d6dbdb, 3px 3px 0 #d6dbdb, 2px 2px 0 #d6dbdb, 1px 1px 0 #d6dbdb, -4px -4px 0 #8c8a8a, -3px -3px 0 #8c8a8a, -2px -2px 0 #8c8a8a, -1px -1px 0 #8c8a8a;
+    background-position: 0% 50%;
   }
   100% {
-    text-shadow: 4px -4px 0 white, 3px -3px 0 white, 2px -2px 0 white, 1px -1px 0 white, -4px 4px 0 #babcbc, -3px 3px 0 #babcbc, -2px 2px 0 #babcbc, -1px 1px 0 #babcbc;
-  }
-}
-
-@keyframes move {
-  0% {
-    text-shadow: 4px -4px 0 #868686, 3px -3px 0 #868686, 2px -2px 0 #868686, 1px -1px 0 #868686, -4px 4px 0 #040404, -3px 3px 0 #040404, -2px 2px 0 #040404, -1px 1px 0 #040404;
-  }
-  25% {
-    text-shadow: -4px -4px 0 #6e7070, -3px -3px 0 #6e7070, -2px -2px 0 #6e7070, -1px -1px 0 #6e7070, 4px 4px 0 #373232, 3px 3px 0 #373232, 2px 2px 0 #373232, 1px 1px 0 #373232;
-  }
-  50% {
-    text-shadow: -4px 4px 0 #d8cccc, -3px 3px 0 #d8cccc, -2px 2px 0 #d8cccc, -1px 1px 0 #d8cccc, 4px -4px 0 #7f8383, 3px -3px 0 #7f8383, 2px -2px 0 #7f8383, 1px -1px 0 #7f8383;
-  }
-  75% {
-    text-shadow: 4px 4px 0 #d6dbdb, 3px 3px 0 #d6dbdb, 2px 2px 0 #d6dbdb, 1px 1px 0 #d6dbdb, -4px -4px 0 #8c8a8a, -3px -3px 0 #8c8a8a, -2px -2px 0 #8c8a8a, -1px -1px 0 #8c8a8a;
-  }
-  100% {
-    text-shadow: 4px -4px 0 white, 3px -3px 0 white, 2px -2px 0 white, 1px -1px 0 white, -4px 4px 0 #babcbc, -3px 3px 0 #babcbc, -2px 2px 0 #babcbc, -1px 1px 0 #babcbc;
+    background-position: 100% 50%;
   }
 }
 
