@@ -108,14 +108,14 @@ text-shadow: 0 0 80px rgba(255,255,255,.5);
 	background-clip: text;
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: aitf 80s linear infinite;
+	animation: aitf 80s linear infinite;
 
-	-webkit-transform: translate3d(0,0,0);
-	-webkit-backface-visibility: hidden;
+	transform: translate3d(0,0,0);
+	backface-visibility: hidden;
 
 }
 
-@-webkit-keyframes aitf {
+@keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
 }
