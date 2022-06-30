@@ -23,6 +23,14 @@ h2{
     font-family: 'League Gothic', sans-serif;
 }
 
+h4{
+    font-family: 'League Gothic', sans-serif;
+}
+
+h3{
+    font-family: 'League Gothic', sans-serif;
+}
+
 p{
     font-family: 'Oswald', sans-serif;
 }
@@ -105,10 +113,8 @@ h1{
     color: black;
     
         background: url(../img/AnimacionTitulo.png) repeat-y;
-        -webkit-background-clip: text;
         background-clip: text;
     
-        -webkit-text-fill-color: transparent;
         animation: aitf 80s linear infinite;
     
         transform: translate3d(0,0,0);
