@@ -105,28 +105,30 @@ body{
 
 /* --------------------------------------------------------- Animacion de titulos 2 ----------------------------------------------------------------- */
 
-h1{
-    span{
+h1 {
+
+span{
     font: 700 4em/1 "Oswald", sans-serif;
     display: block;
     text-shadow: 0 0 80px rgba(255,255,255,.5);
-    color: black;
     
         background: url(../img/AnimacionTitulo.png) repeat-y;
+        -webkit-background-clip: text;
         background-clip: text;
     
+        -webkit-text-fill-color: transparent;
         animation: aitf 80s linear infinite;
     
         transform: translate3d(0,0,0);
         backface-visibility: hidden;
     }
-
     
     @keyframes aitf {
         0% { background-position: 0% 50%; }
         100% { background-position: 100% 50%; }
     }
 }
+
 
 
 /* --------------------------------------------------------- Boton ------------------------------------------------------------------ */
@@ -141,9 +143,9 @@ h1{
     opacity: 0.7;
     z-index: 99;
     border-radius: 10px;
-}
 
-.boton-subir a {
+    a {
     font-size: 24px;
     color: #fff;
+}
 }
